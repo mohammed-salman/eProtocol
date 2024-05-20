@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="51.728" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Test eProtocol App" name="Verify the Vendor functionality &quot;&lt;vendor&gt;&quot; - Example #1.1" time="51.251">
+<failure type="java.lang.AssertionError" message="Element not available">
+<![CDATA[java.lang.AssertionError: Element not available
+	at org.junit.Assert.fail(Assert.java:89)
+	at pages.eProtocol.selectDropdown(eProtocol.java:204)
+	at StepDefinitions.eProtocolSteps.iSelectFromDropdown(eProtocolSteps.java:118)
+	at ✽.I Select "Allss" from "Delivery date" dropdown(file:///Users/salman/Documents/eProtocol%20Automation/src/test/resources/Features/eProtocol.feature:16)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I navigate to eProtocol application "Chrome"..........................passed
+When Enter "Username" and "Password"........................................passed
+And Click Submit Button.....................................................passed
+And I click "eAnimal Ordering" button.......................................passed
+And I click "Procurement Staff" button......................................passed
+And I click "Print Cage Card" button........................................passed
+And I Select "Vendor" checkbox..............................................passed
+And I Select "All" from "Vendor" dropdown...................................passed
+And I Select "Allss" from "Delivery date" dropdown..........................failed
+And I Select "O-28" from "PO Number" dropdown...............................skipped
+And I click "Get Cage Cards" button.........................................skipped
+And I Verify the list.......................................................skipped
+And I Select "all" checkbox.................................................skipped
+And I Select "DMP" radio button.............................................skipped
+And I click "Print" button..................................................skipped
+And I verify the PDF........................................................skipped
+Then I close the Browser....................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
