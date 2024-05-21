@@ -4,7 +4,7 @@ Feature: Test eProtocol App
     Given I navigate to eProtocol application "Chrome"
 
 
-  @TC_1 @C1
+  @TC_1 @C1 @e1
   Scenario Outline: Verify the Vendor functionality "<vendor>"
     When Enter "Username" and "Password"
     And Click Submit Button
